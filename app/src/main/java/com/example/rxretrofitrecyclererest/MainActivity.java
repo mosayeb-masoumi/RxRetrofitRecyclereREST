@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
 //                PostAdapter adapter = new PostAdapter(MainActivity.this,posts);
 //                recycler_post.setAdapter(adapter);
                        }
+
                    }, new Consumer<Throwable>() {
                        @Override
                        public void accept(Throwable t) throws Exception {
