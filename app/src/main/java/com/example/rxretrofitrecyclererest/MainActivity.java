@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                        }
 
                    }, new Consumer<Throwable>() {
+
                        @Override
                        public void accept(Throwable t) throws Exception {
                            Toast.makeText(MainActivity.this, ""+t.getMessage(), Toast.LENGTH_SHORT).show();
